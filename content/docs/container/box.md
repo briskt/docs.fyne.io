@@ -17,7 +17,7 @@ The most commonly used layout is `layout.BoxLayout` and it has two variants,
 horizontal and vertical. A box layout arranges all elements in a single
 row or column with optional spaces to assist alignment.
 
-A horizontal box layout, created with `layout.NewHBoxLayout()` creates
+A horizontal box layout, created with `layout.NewHBoxLayout()`, creates
 an arrangement of items in a single row. Every item in the box will
 have its width set to its `MinSize().Width` and the height will be
 equal for all items, the largest of all the `MinSize().Height` values.

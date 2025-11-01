@@ -17,8 +17,8 @@ By default a window will be the right size to show its content
 by checking the `MinSize()` function (more on that in later examples).
 You can set a larger size by calling the `Window.Resize()` method.
 Into this is passed a `fyne.Size` which contains a width and height using
-device independent pixels (meaning that it will be the same across different
-devices), for example to make a window square by default we could:
+device independent pixels, meaning that it will be the same across different
+devices. For example, to make a window square by default we could use `Resize`:
 
 ```go
 	w.Resize(fyne.NewSize(100, 100))
@@ -63,7 +63,7 @@ is arranged so one window is main and the others are accessory views you
 can set one window to be "master" so that the app exits if that window
 is closed. To do this use the `SetMaster()` function on `Window`.
 
-Windows can be created at any time, we could change the code above so that
+Windows can be created at any time. We could change the code above so that
 the content of the second window (`w2`) is a button that opens a new
 window. You could also load windows from more complex workflows, but be
 careful because new windows will normally appear above the current active

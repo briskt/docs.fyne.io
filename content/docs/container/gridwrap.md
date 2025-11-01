@@ -22,7 +22,7 @@ The number of columns and rows will be calculated based on the current
 size of the container.
 
 Initially a grid wrap layout will have a single column, if you resize it
-(as illustrated in the code comment to the right) it will rearrange
+(as illustrated in the code comment) it will rearrange
 the child elements to fill the space.
 
 ```go
